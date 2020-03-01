@@ -36,3 +36,9 @@ github_go_repository(
     repo_url = "github.com/grpc/grpc-go",  # optional; specific to github_go_repository when the repo URL is different from the importpath
 )
 ```
+
+## Risks
+
+> Archives served by GitHub do not have stable SHA-256 sums. They haven't changed in a couple years, but it's broken us in the past. Use at your own risk.
+
+https://github.com/bazelbuild/bazel-gazelle/issues/549#issuecomment-559238543
