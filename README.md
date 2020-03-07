@@ -37,8 +37,14 @@ github_go_repository(
 )
 ```
 
-## Risks
+## Caveats and Risks
+
+### Non-stable checksums from GitHub
 
 > Archives served by GitHub do not have stable SHA-256 sums. They haven't changed in a couple years, but it's broken us in the past. Use at your own risk.
 
 https://github.com/bazelbuild/bazel-gazelle/issues/549#issuecomment-559238543
+
+### No Modules Support
+
+For now.
